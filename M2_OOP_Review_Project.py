@@ -3,7 +3,7 @@ from parking_meter import ParkingMeter
 from police_officer import PoliceOfficer
 
 def run_scenario(description, car, meter, officer):
-    print(f"\n=== {description} ===")
+    print(f"\n== {description} ==")
     ticket = officer.inspect_car(car, meter)
 
     if ticket:
