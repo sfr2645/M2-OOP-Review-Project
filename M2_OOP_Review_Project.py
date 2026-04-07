@@ -9,7 +9,7 @@ def run_scenario(description, car, meter, officer):
     if ticket:
         ticket.display_ticket()
     else:
-        print(f"{car} is legally parked. No ticket issued.")
+        print(f"{car} is legally parked. No ticket was issued.")
 
 
 def main():
