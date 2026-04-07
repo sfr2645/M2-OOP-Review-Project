@@ -51,7 +51,7 @@ def main():
         if ticket:
             ticket.display_ticket()
         else:
-            print(f"{car} is legally parked. No ticket issued.")
+            print(f"{car} is legally parked. No ticket was issued.")
 
 
 if __name__ == "__main__":
